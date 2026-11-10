@@ -1,0 +1,64 @@
+.root{--main-blue:#3a6cf4;}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background_color:#f0f0;
+    width:100%;
+    position:fixed;
+    display:flex;
+    justify_content:space-beteween;
+    align-items:center;
+    padding:10px 200px;
+    z-index:999;
+}
+-logo{
+    text-decoration:none;
+    color:pink;
+    text-transform:upperase;
+    font-wieght:700;
+    font-size:1.8em;
+}
+.navigation a{
+    text-decoration:none;
+    color:#3a6cf4;
+     font-size: 1.1em;
+    padding-left:30 px;
+}
+.navigation a:hover{
+    color: #601cfc;
+}
+title {
+    display:flex;
+    justify_content:center;
+    font-wieght:800;
+    margin-bottom:30 px;
+    font-size:2.2em;
+    color:var(--main-blue);
+}
+.content{
+   display:flex;
+   flex-directon:row;
+   flex-warp:warp;
+    justify_content:center; 
+}
+.card{
+    background_color:#fff;
+    width:21.25em;
+    border-radius:10px;
+    padding:25px;
+    margin:15px;
+    box-shadow:0 5px 25px black;   
+}
+.card:hover{
+    transform:scale(1.1);
+}
+.card .icon {
+    color: var(--main-blue);
+    font-size: 8em;
+    text-align: center;
+}
